@@ -30,6 +30,35 @@ InternalStorage/ARCam/
 *(Create folders if they don’t exist)*
 4. Open ARCam → Double tap near the shutter button → Select the XML → Click **Restore**.
 
+
+## ⚡ Quick Setup for Root Users
+
+Root users can follow these steps to set up ARCam:
+
+1. **Create a folder**  
+   Make a folder named `arcam` inside your device directory, for example:
+```
+
+/product/data-app/arcam
+
+```
+
+2. **Copy files**  
+Copy the following into the `arcam` folder:
+- `base.apk`  
+- `lib/` folder  
+- `oat/` folder  
+
+3. **Reboot your device**  
+
+4. **Restore XML configs**  
+- Open the ARCam app  
+- Import or restore your custom `.xml` configuration files  
+
+5. **Enjoy**  
+Your ARCam setup is ready with optimized libraries and runtime files.
+
+
 ---
 
 ## 📂 Folder Structure
