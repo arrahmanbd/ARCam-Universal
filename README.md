@@ -1,5 +1,5 @@
 
-# 📸 ARCam
+# 📸 ARCam - GCam Enhanced
 
 ARCam is a **customized Google Camera (GCam) mod** based on **LMC by Hasil**.  
 It includes **optimized XML configurations**, tuned for improved photography with better details, dynamic range, and low-light performance.  
@@ -8,7 +8,7 @@ It includes **optimized XML configurations**, tuned for improved photography wit
 
 ## ✨ Features
 
-- 🔧 Based on **LMC by Hasil**
+- 🔧 Based on GCam Port **LMC by Hasil**
 - ⚡ Custom XML tuning for sharper images
 - 🌙 Enhanced Night Sight & HDR+
 - 🎨 Improved color balance and contrast
@@ -36,25 +36,28 @@ InternalStorage/ARCam/
 ```
 
 ARCam/
-├── apk/        # ARCam builds
+├── data/       # ARCam builds [Root]
 ├── xml/        # Custom XML configs
-├── screenshots # Sample images
+├── image/      # Sample images
 └── README.md
 
 ```
 
 ---
 
-## 📸 Screenshots (Optional)
-*(Add some comparison shots here)*  
+## 📸 Screenshots:
+
+![App Screenshot](./screenshots/sample.jpg)
+
 
 ---
 
 ## 🚀 Roadmap
-- [ ] Add more XML presets for different devices  
-- [ ] Night Sight fine-tuning  
-- [ ] Portrait mode improvements  
-- [ ] Add device-specific configs  
+- [x] Add more XML presets for different devices  
+- [x] Night Sight fine-tuning  
+- [x] Portrait mode improvements  
+- [x] Add device-specific configs  
+- [x] Split data app
 - [ ] Create Magisk Modules
 - [ ] Create ARCam Installer  
 
